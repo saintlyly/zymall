@@ -1,17 +1,13 @@
 <template>
-  <div class="home">
-    <!-- <headTop></headTop> -->home
-  </div>
+    <h1>home</h1>
 </template>
 
 <script>
-// @ is an alias to /src
-// import headTop from ".././components/header/header.vue";
-
 export default {
-  name: "home",
-  components: {
-    // headTop
-  }
-};
+    
+}
 </script>
+
+<style lang="scss" scoped>
+
+</style>

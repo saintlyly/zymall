@@ -9,15 +9,15 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
     // {
-    //   path: '/home',
-    //   component: () => import('@/views/home/Home.vue')
+    //   path: '/',
+    //   name: 'home',
+    //   component: Home
     // },
+    {
+      path: '/home',
+      component: () => import('@/views/home/Home.vue')
+    },
     {
       path: '/category',name: 'Category',
       component: () => import('@/views/category/Category.vue')
