@@ -14,10 +14,10 @@ export default new Router({
       name: 'home',
       component: Home
     },
-    {
-      path: '/home',name: 'home',
-      component: () => import('@/views/home/Home.vue')
-    },
+    // {
+    //   path: '/home',
+    //   component: () => import('@/views/home/Home.vue')
+    // },
     {
       path: '/category',name: 'Category',
       component: () => import('@/views/category/Category.vue')
